@@ -6,7 +6,7 @@ export default function UdemyCourseComponent({imageUrl, courseTitle, courseLink}
         <div className="parentDiv">
             <img src={imageUrl} alt={courseTitle} className="courseImage"/>
             <h2 className="courseTitle">{courseTitle}</h2>
-            <a href="{courseLink}" className="courseLink">Link to Course</a>
+            <a href={courseLink} className="courseLink">Link to Course</a>
         </div>
 
     )
