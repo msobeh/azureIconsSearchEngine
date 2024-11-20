@@ -7,7 +7,7 @@ export default function CourseCarousel() {
         {
             imageUrl: "https://azureiconskuljot.blob.core.windows.net/iconsofazure/All_Things_RAG.png",
             courseTitle: "RAG with Azure OpenAI (Azure AI Search, CosmosDB, GraphRAG and more)",
-            courseLink: "https://www.udemy.com/course/rag-with-azure-openai-azure-ai-search-cosmosdb-graphrag-and-more/"
+            courseLink: "https://www.udemy.com/course/rag-with-azure-openai-ai-search-cosmosdb-graphrag-more/?referralCode=4DF77685B7D27902AA0C"
 
         },
         {
