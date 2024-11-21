@@ -1,7 +1,16 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
 
-// https://vite.dev/config/
 export default defineConfig({
+  base: "/",
   plugins: [react()],
-})
+  preview: {
+    port: parseInt(process.env.PORT) || 8080, // Use PORT env variable or fallback to 8080
+    strictPort: true,
+  },
+  server: {
+    port: parseInt(process.env.PORT) || 8080, // Use PORT env variable or fallback to 8080
+    strictPort: true,
+    host: true,
+  },
+});
